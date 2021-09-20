@@ -181,3 +181,19 @@ body {
   font-size: 0.8rem;
   line-height: 1.2;
 }
+
+@media screen and (max-width: 425px) {
+  .content__columns {
+    flex-direction: column;
+  }
+  .content__column {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .cover__title {
+    font-size: 4rem;
+  }
+  .cover__subtitle {
+    font-size: 0.8rem;
+  }
+}
